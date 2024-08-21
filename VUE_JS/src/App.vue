@@ -1,5 +1,6 @@
 <template>
   <RouterView></RouterView>
+
 </template>
 
 
@@ -9,5 +10,7 @@
 
 
 <style>
-
+  a{
+    text-decoration: none;
+  }
 </style>

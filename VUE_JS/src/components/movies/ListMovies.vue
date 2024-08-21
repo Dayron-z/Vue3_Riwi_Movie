@@ -24,6 +24,8 @@ import CardMovie from "@/components/movies/CardMovie.vue"
 import { useMoviesStore } from "@/store/movies.store"
 
 const store = useMoviesStore()
+
+
 onMounted(()=> {
     console.log('ListMovies mounted')
     fetchMovies()

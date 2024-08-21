@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.11.3",
     "pinia": "^2.2.2",
     "s1-vue": "file:",
     "vue": "^3.4.29",

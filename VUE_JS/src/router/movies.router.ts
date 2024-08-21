@@ -8,6 +8,7 @@ const routes: RouteRecordRaw[] = [
         name: 'home'
     },
     {
+        //: --> variable dinamica
         path: '/movies/:id',
         component: () => import('@/pages/MovieDetails.vue'),
         name: 'movie-details'

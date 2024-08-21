@@ -12,7 +12,7 @@
             <span>Tipo:</span>
             {{ props.type }}
         </p>
-        <<router-link :to="{ name: 'movie-details', params: {id: props.id}}">Ver Detalles</router-link> 
+        <router-link :to="{ name: 'movie-details', params: {id: props.id}}">Ver Detalles</router-link> 
     </div>
 </template>
 
