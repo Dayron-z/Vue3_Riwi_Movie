@@ -27,6 +27,3 @@ export const useMoviesStore = defineStore('movies', {
         }
     }
 });
-
-
-//Crear nuevo con parametro i en vez de s

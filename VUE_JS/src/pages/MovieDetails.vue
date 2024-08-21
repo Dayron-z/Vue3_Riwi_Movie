@@ -106,6 +106,9 @@ import type { InfoMovie, Movie } from "@/model/movie.model";
 const route = useRoute();
 const movieId = route.params.id as string;
 const moviesStore = useMoviesStore();
+const movie = computed(() => moviesStore.currentMovie);
+
+
 
 onMounted(async () => {
   if (moviesStore.listMovies.length === 0) {
@@ -114,7 +117,7 @@ onMounted(async () => {
   await moviesStore.getMovieDetailsById(movieId);
 });
 
-const movie = computed(() => moviesStore.currentMovie);
+
 
 if (movie.value) {
   console.log("Movie details:", movie.value);
